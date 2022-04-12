@@ -7,15 +7,13 @@ body{
 
 .top-header{
     margin-top: 30px;
-}
-
-.flex{
     display: flex;
 }
 
+
 .half-width{
-    width: 40%;
-    margin: auto;
+    width: 50%;
+    padding: 90px 50px 50px 100px;
 }
 
 .half-width h1{
@@ -30,9 +28,13 @@ body{
     margin-bottom: 40px;
 }
 
-.half-width img{
-    width: 100%;
-    height: 100%;
+.half-width-img{
+width: 50%;
+text-align: center;
+}
+
+.half-width-img img{
+    height: 75%;
 }
 
 .skip{
@@ -60,17 +62,18 @@ body{
     background-position: center;
     height: 600px;
     margin-bottom: 50px;
+    display: flex;
+    margin-top: -160px;
 }
 
 .sec-half-width{
-    width: 40%;
+    width: 50%;
     padding-left: 13.5%;
     padding-right: 12%;
     padding-top: 5%;
 }
 
 .sec-half-width img{
-    width: 100%;
     height: 100%;
 }
 
@@ -78,6 +81,16 @@ body{
     margin-top: 60px;
 }
 
-#about p{
-    margin-bottom: 30px;
+
+.sec-half-width h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    color: rgb(83, 83, 83);
+}
+
+.sec-half-width p{
+    color: rgb(109, 108, 108);
+    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
